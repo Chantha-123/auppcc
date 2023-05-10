@@ -1,0 +1,639 @@
+.top-menu {
+    border-bottom: 2px solid pink;
+}
+
+.logo {
+    background-color: pink;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu ul li a img {
+    margin-top: -10px;
+    height: 35px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li:last-child {
+    float: right;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li:first-child {
+    display: none;
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+.slide {
+    background-color: gray;
+    width: 100%;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.slide .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slide .title a {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+.slide .title a:hover {
+    text-decoration: none;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.all-pic {
+    height: 250px;
+    /* background-color: gray; */
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.all-pic .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.all-pic .title a {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.all-pic .title a:hover {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.all-pic:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.all-pic img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.best-seller {
+    padding: 10px;
+}
+
+.best-seller h1,
+.best-seller p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.best-seller h1 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.best-seller p {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+.pro-week {
+    /* background-color: blue; */
+    padding: 0;
+    margin: 0;
+}
+
+.pro-week .pic {
+    /* background-color: yellow; */
+    margin: 10px;
+    height: 400px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* .pro-week:hover .pic-tittle {
+    position: absolute;
+    top: 0
+    left: 0px;
+} */
+
+.pro-week .pic .instock {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: red;
+    padding: 2px 5px 2px 5px;
+    font-size: 12px;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.pro-week .pic .quick-view {
+    visibility: hidden;
+}
+
+.pro-week .pic:hover .quick-view {
+    visibility: visible;
+}
+
+.pro-week .pic .quick-view li {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.pro-week .pic .quick-view li:hover {
+    background-color: lightskyblue;
+    color: whitesmoke;
+}
+
+.pro-week .pic .quick-view Li:hover i {
+    color: whitesmoke;
+}
+
+.pro-week .pic .quick-view li i {
+    /* margin-top: 50px; */
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+.youtube iframe{
+    height: 300px;
+    width: 500px;
+    float: right;
+
+}
+/* .youtube img{
+    height: 300px;
+    width: 500px;
+    float: right;
+} */
+.pro-week .pic .quick-view {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.pro-week .pic .pic-tittle {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    float: left;
+    top: 80%;
+    left: 0;
+    background-color: white;
+    /* background-color: blue; */
+    overflow: hidden;
+    text-align: center;
+    transition: 1s;
+}
+
+.pro-week .pic:hover .pic-tittle {
+    top: 60%;
+    transition: 1s;
+}
+
+.pic .pic-tittle p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pic .pic-tittle ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.pic .pic-tittle ul li {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin: 0.5px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pic-tittle ul li:hover img {
+    transform: scale(0.90);
+}
+
+.pic .pic-tittle ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+a.cart {
+    background-color: blue;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.pro-week .pic img {
+    width: 100%;
+    height: 80%;
+}
+
+.style {
+    height: 100%;
+    /* background-color: green; */
+    margin-top: 40px;
+    /* padding: 10px; */
+}
+
+.style .pic-style {
+    width: 100%;
+    height: 350px;
+    /* background-color: yellow; */
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.pic-style .pic-style-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(245, 248, 248, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.pic-style .pic-style-title:hover {
+    background-color: rgba(119, 19, 233, 0.5);
+    transition: 0.5s;
+}
+
+.style .pic-style img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.style .pic-style:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.all-style h1 {
+    margin: 20px 0 0 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.all-style p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.social {
+    background-color: blue;
+    text-align: center;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.social li a i {
+    color: whitesmoke;
+}
+
+.all-contact {
+    /* background-color: yellow; */
+    margin-top: 15px;
+}
+
+.contact {
+    /* height: 180px; */
+    /* background-color: gray; */
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 575.98px) {
+    .menu ul li {
+        display: none;
+    }
+    .menu ul li:first-child {
+        display: block;
+    }
+    .menu ul li:last-child {
+        display: block;
+    }
+    .slide {
+        background-color: gray;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .all-pic {
+        height: 250px;
+        padding: 20px;
+    }
+    .pro-week .pic {
+        /* background-color: yellow; */
+        margin: 10px;
+        height: 300px;
+        float: left;
+        position: relative;
+        overflow: hidden;
+    }
+    .pro-week .pic .pic-tittle {
+        position: absolute;
+        width: 100%;
+        height: 60%;
+        float: left;
+        top: 70%;
+        left: 0;
+        background-color: white;
+        /* background-color: blue; */
+        overflow: hidden;
+        text-align: center;
+        transition: 1s;
+        font-size: 12px;
+    }
+    .pro-week .pic:hover .pic-tittle {
+        top: 70%;
+        transition: 1s;
+    }
+    .pro-week .pic .pic-tittle ul {
+        display: none;
+    }
+    a.cart {
+        margin-top: 20px;
+        line-height: 40px;
+    }
+    .pro-week .pic .quick-view {
+        visibility: visible;
+    }
+    .style .pic-style {
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        box-sizing: border-box;
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 575.99px) and (max-width:767.98px) {
+    .menu ul li {
+        display: none;
+    }
+    .menu ul li:first-child {
+        display: block;
+    }
+    .menu ul li:last-child {
+        display: block;
+    }
+    .slide {
+        background-color: gray;
+        width: 100%;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .all-pic {
+        height: 200px;
+        padding: 20px;
+    }
+    .pro-week .pic {
+        /* background-color: yellow; */
+        margin: 10px;
+        height: 400px;
+        float: left;
+        position: relative;
+        overflow: hidden;
+    }
+    .pro-week .pic .pic-tittle {
+        position: absolute;
+        width: 100%;
+        height: 40%;
+        float: left;
+        top: 65%;
+        left: 0;
+        background-color: white;
+        /* background-color: blue; */
+        overflow: hidden;
+        text-align: center;
+        transition: 1s;
+    }
+    .pro-week .pic:hover .pic-tittle {
+        top: 65%;
+        transition: 1s;
+    }
+    .pro-week .pic .quick-view {
+        visibility: visible;
+    }
+    .style .pic-style {
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+        box-sizing: border-box;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width:991.98px) {
+    .menu ul li {
+        display: none;
+    }
+    .menu ul li:first-child {
+        display: block;
+    }
+    .menu ul li:last-child {
+        display: block;
+    }
+    .slide {
+        background-color: gray;
+        width: 100%;
+        height: 350px;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .all-pic {
+        height: 300px;
+        padding: 20px;
+    }
+    .pro-week .pic {
+        /* background-color: yellow; */
+        margin: 10px;
+        height: 400px;
+        float: left;
+        position: relative;
+        overflow: hidden;
+    }
+    .pro-week .pic .pic-tittle {
+        position: absolute;
+        width: 100%;
+        height: 40%;
+        float: left;
+        top: 60%;
+        left: 0;
+        background-color: white;
+        /* background-color: blue; */
+        overflow: hidden;
+        text-align: center;
+        transition: 1s;
+    }
+    .pro-week .pic:hover .pic-tittle {
+        top: 60%;
+        transition: 1s;
+    }
+    .pro-week .pic .quick-view {
+        visibility: visible;
+    }
+    .style .pic-style {
+        width: 100%;
+        height: 250px;
+        background-color: yellow;
+        box-sizing: border-box;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media (min-width: 992px)and (max-width:1198.98px) {
+    .slide {
+        background-color: gray;
+        width: 100%;
+        height: 450px;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .all-pic {
+        height: 200px;
+        padding: 20px;
+    }
+    .pro-week .pic {
+        /* background-color: yellow; */
+        margin: 10px;
+        height: 400px;
+        float: left;
+        position: relative;
+        overflow: hidden;
+    }
+    .pro-week .pic .pic-tittle {
+        position: absolute;
+        width: 100%;
+        height: 45%;
+        float: left;
+        top: 60%;
+        left: 0;
+        background-color: white;
+        /* background-color: blue; */
+        overflow: hidden;
+        text-align: center;
+        transition: 1s;
+    }
+    .pro-week .pic:hover .pic-tittle {
+        top: 60%;
+        transition: 1s;
+    }
+    .pro-week .pic .quick-view {
+        visibility: visible;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
